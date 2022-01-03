@@ -1,0 +1,82 @@
+html { 
+    background: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+}
+
+  .main {
+      text-align: center;
+  }
+  .form {
+      padding-bottom: 20px;
+      margin: auto;
+      width: 50%;
+      text-align: left;
+      background-color: cadetblue;
+      font-size: large;
+      border-radius: 10px;
+    }
+
+  .form-elements1 {
+    padding-top: 20px;
+    margin-left: 30px;
+    width: 90%;
+  }
+
+
+  .form-elements {
+      margin: 30px 30px 20px 30px;
+
+  }
+  
+  .field {
+      padding: 12px;
+      width: 85%;
+  }
+
+  #textarea {  
+    min-height: 120px;
+    width: 85%;
+    padding: 0.625rem;
+    resize: vertical;
+    
+  }
+  #submit {
+    display: block;
+    width: 85%;
+    margin-top: 15px;
+    padding: 11px;
+    background-color: green;
+    border-radius: 2px;
+  }
+
+  @media(min-width: 480px){
+
+    .form-elements1 {
+        padding-top: 20px;
+        margin-left: 30px;
+        width: 90%;
+        padding-right: 0.87em;
+        
+      }
+  }
+
+@media(min-width: 1280px){
+   .form-elements1 {
+      padding-top: 20px;
+      margin-left: 30px;
+      width: 90%;
+      padding-right: 0.1em;
+    
+  }
+}
+
+
+
+
+
