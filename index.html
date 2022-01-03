@@ -7,21 +7,97 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1> HELLO WORLD</h1>
-    <h2> Hello we are software developers </h2>
-    <!--
+    <h1>FreeCodeCamp Survey Form</h1> 
+    <p><em>Thank you for taking the time to help us improve the platform</em></p>
+    <main>
 
-    Hello Camper!
+      <div>
+        <form>
+          <div>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+             <p> Name </p>
+          
+             <input id="name" type="text" name="name" placeholder="Enter your name" required>
 
-    - The freeCodeCamp Team
+             <p> Email </p>
+             <input id="email" type="email"name="email" placeholder="Enter your email">
 
-    -->
-    <script  src="js/index.js"></script>
+             <p> Age </p>
+             <input id="age" type="number"name="number" placeholder=" Age ">
+
+             <p> Which option best describes your current role? </p>
+             <select id="dropdown" name="dropdowm" placeholder=" Select current rolle ">
+
+                <option value="student"> Student</option>
+                <option value="full_time_job"> Full-Time-Job</option>
+                <option value="full_time_learner"> Full-Time-Learner</option>
+                <option value="prefer_not_to_say"> Prefer_not_to_say</option>
+                <option value="other"> Other </option>
+
+             </select>
+
+             <p>Would you recommend freeCodeCamp to a friend?</p>
+             
+              
+              <label>
+                <input type="radio" name="recomend" value="definitly"> Definitly
+
+              </label>
+             <label >
+               <input type="radio" name="recomend" value="maybe"> Maybe
+            </label>
+              
+              
+              <label>
+                <input type="radio" name="recomend" value="not_sure" > Not sure
+              </label>
+              
+              <p>What is your favorite feature of freeCodeCamp?</p>
+
+              <select id="dropdown" name="dropdowm" placeholder=" Favorite feature ">
+
+                <option value="challenge"> Challenges</option>
+                <option value="projects"> Projects</option>
+                <option value="community"> Community</option>
+                <option value="open_source"> Open_source</option>
+                
+             </select>
+
+             <p>What would you like to see improved? (Check all that apply</p>
+
+             <label>
+                <input type="checkbox" name="likes" value="front_end_projects"> Front_end_projects
+
+              </label>
+              <label>
+                <input type="checkbox" name="likes" value="back_end_projects"> Back_end_projects
+
+              </label>
+              <label>
+                <input type="checkbox" name="likes" value="challenges"> Challenges
+
+              </label>
+              <label>
+                <input type="checkbox" name="likes" value="videos"> Videos
+
+              </label>
+              <label>
+                <input type="checkbox" name="likes" value="forum"> Forum
+
+              </label>
+
+              <p>Any comments or suggestions?</p>
+
+          
+              <textarea
+                  id="textarea" name="textarea" placeholder="Leave your sugestion here">
+              </textarea>
+                <button id="submit" type="submit" > Submit </button>
+            
+           </div>
+        </form>
+   </div>  
+  </main>
+    
   </body>
 </html>
