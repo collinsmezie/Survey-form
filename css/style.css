@@ -12,7 +12,20 @@ html {
   .main {
       text-align: center;
   }
+  h1 {
+    color: rgb(43, 72, 73)
+  }
+  p {
+      color: whitesmoke;
+      font-weight: bold ;
+     font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+  }
+  #p {
+    color: rgb(43, 72, 73)
+  }
+
   .form {
+      padding-top: 14px;
       padding-bottom: 20px;
       margin: auto;
       width: 50%;
@@ -51,7 +64,8 @@ html {
     width: 85%;
     margin-top: 15px;
     padding: 11px;
-    background-color: green;
+    color: whitesmoke;
+    background-color: rgb(56, 94, 95);
     border-radius: 2px;
   }
 
@@ -75,6 +89,7 @@ html {
     
   }
 }
+
 
 
 
